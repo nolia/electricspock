@@ -45,7 +45,7 @@ dependencies {
 
     compile 'org.codehaus.groovy:groovy-all:2.4.12'
     compile "org.spockframework:spock-core:1.1-groovy-2.4"
-    compile 'cglib:cglib-nodep:3.2.4'
+    compile 'cglib:cglib-nodep:3.2.5'
 
 //    testCompile 'net.bytebuddy:byte-buddy:1.6.3'
 

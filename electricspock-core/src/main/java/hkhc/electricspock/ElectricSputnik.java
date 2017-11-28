@@ -175,8 +175,8 @@ public class ElectricSputnik extends Runner implements Filterable, Sortable {
     private void checkRobolectricVersion() {
 
         String ver = getCurrentRobolectricVersion();
-        if (!isVersion(ver, "3.3") && !isVersion(ver, "3.4"))
-            throw new RuntimeException("This version of ElectricSpock supports Robolectric 3.3 or 3.4 only");
+        if (!isVersion(ver, "3.3") && !isVersion(ver, "3.4") && !isVersion(ver, "3.5"))
+            throw new RuntimeException("This version of ElectricSpock supports Robolectric 3.3, 3.4 or 3.5 only");
     }
 
     public Description getDescription() {
